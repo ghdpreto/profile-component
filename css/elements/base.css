@@ -1,0 +1,13 @@
+html, body {
+    font-size: 10px;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color);
+    background-color: var(--first-color-dark);
+}
