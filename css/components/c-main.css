@@ -1,6 +1,10 @@
 .c-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50vw;
     max-width: 80vw;
-    padding: var(--gap-medium);
+    padding: var(--gap-big);
     background-color: var(--first-color-light);
+    box-sizing: border-box;
 }
