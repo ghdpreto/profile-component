@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50vw;
+    width: 900px;
     max-width: 80vw;
     padding: var(--gap-big);
     background-color: var(--first-color-light);
