@@ -1,6 +1,7 @@
 .c-box {
-    width: 25%;
-    min-width: 10rem;
+    width: 20rem;
+    min-width: auto;
+    box-sizing: border-box;
     border-radius: calc(var(--gap-small) / 2);
     padding: var(--gap-medium);
     margin: 1rem;
