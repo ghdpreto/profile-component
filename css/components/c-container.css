@@ -1,0 +1,7 @@
+.c-container {
+    box-sizing: border-box;
+    padding: var(--gap-medium);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
