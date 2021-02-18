@@ -1,3 +1,50 @@
 .c-profile {
-    
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--gap-medium);
+}
+
+.c-profile__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-profile__img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-right: var(--gap-small);
+}
+
+.c-profile__name {
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+
+.c-profile__nick {
+    font-size: 1.2rem;
+} 
+
+
+.c-profile__edit {
+    border: 1px solid red;
+    padding: var(--gap-small);
+    font-size: 1.2rem;
+    border-radius: calc(var(--gap-small) / 2);
+    cursor: pointer;
+}
+
+.c-profile__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-profile__link i {
+    font-size: 1.8rem;
+    margin-right: .6rem;
 }
