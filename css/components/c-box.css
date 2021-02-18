@@ -1,0 +1,30 @@
+.c-box {
+    width: 25%;
+    min-width: 10rem;
+    border-radius: calc(var(--gap-small) / 2);
+    padding: var(--gap-medium);
+    margin: 1rem;
+}
+
+.c-box__title {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.c-box__subtitle {
+    font-size: 3.4rem;
+    font-weight: 500;
+    margin-top: .8rem;
+}
+
+.c-box--project {
+    background-color: var(--project-color);
+}
+
+.c-box--star {
+    background-color: var(--star-color);
+}
+
+.c-box--follow {
+    background-color: var(--follow-color);
+}

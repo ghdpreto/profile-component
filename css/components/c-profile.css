@@ -1,5 +1,4 @@
 .c-profile {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +30,6 @@
 
 
 .c-profile__edit {
-    border: 1px solid red;
     padding: var(--gap-small);
     font-size: 1.2rem;
     border-radius: calc(var(--gap-small) / 2);
