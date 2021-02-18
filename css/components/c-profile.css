@@ -31,6 +31,7 @@
 
 .c-profile__edit {
     padding: var(--gap-small);
+    background-color: var(--button-color);
     font-size: 1.2rem;
     border-radius: calc(var(--gap-small) / 2);
     cursor: pointer;
