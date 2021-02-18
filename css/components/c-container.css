@@ -5,3 +5,10 @@
     justify-content: space-evenly;
     padding: var(--gap-medium) 0;
 }
+
+@media(max-width: 768px) {
+    .c-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}

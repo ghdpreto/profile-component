@@ -27,3 +27,10 @@
 .c-box--follow {
     background-color: var(--follow-color);
 }
+
+
+@media(max-width: 768px) {
+    .c-box {
+        width: 100%;
+    }
+}

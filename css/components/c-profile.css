@@ -47,3 +47,12 @@
     font-size: 1.8rem;
     margin-right: .6rem;
 }
+
+@media(max-width: 768px) {
+    .c-profile {
+        flex-direction: column;
+    }
+    .c-profile__edit {
+        margin-top: 3rem;
+    }
+}

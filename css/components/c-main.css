@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     width: 900px;
-    max-width: 80vw;
+    max-width: 90vw;
     padding: var(--gap-big);
     background-color: var(--first-color-light);
     box-sizing: border-box;
